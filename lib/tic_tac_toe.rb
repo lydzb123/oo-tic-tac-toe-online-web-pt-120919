@@ -12,6 +12,9 @@ WIN_COMBINATIONS = [[0,1,2], #top-across
 [6,4,2] #diag-left
 ]
 
+def initialize(board = nil)
+  @board = board || Array.new(9, " ")
+end
 
 def display_board
   puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
@@ -126,12 +129,6 @@ def play
   elsif draw?
     puts "Cat's Game!"
   end
-end
-
-
-def initialize(board = nil)
-  @board = board || Array.new(9, " ")
-play
 end
 
 end
