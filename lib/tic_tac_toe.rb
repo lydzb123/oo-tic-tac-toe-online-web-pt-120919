@@ -120,6 +120,7 @@ def winner
 end
 
 def play
+ @board = Array.new(9, " ")
   while !over?
     turn
   end
