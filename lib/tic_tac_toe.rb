@@ -125,7 +125,6 @@ def play
     over?
     won?
     draw?
-    turn
   elsif won?
     puts "Congratulations #{winner}!"
   elsif draw?
