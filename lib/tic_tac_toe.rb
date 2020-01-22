@@ -120,12 +120,12 @@ def winner
 end
 
 def play
-  turn
   if !over?
     turn
     over?
     won?
     draw?
+    turn
   elsif won?
     puts "Congratulations #{winner}!"
   elsif draw?
