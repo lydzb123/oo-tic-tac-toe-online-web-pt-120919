@@ -122,6 +122,7 @@ end
 def play
   if !over?
     turn
+    over?
   elsif won?
     puts "Congrats, winner!"
   elsif draw?
