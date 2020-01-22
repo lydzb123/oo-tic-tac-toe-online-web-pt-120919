@@ -14,8 +14,7 @@ WIN_COMBINATIONS = [[0,1,2], #top-across
 
 def initialize(board = nil)
   @board = board || Array.new(9, " ")
-  
-  play
+  self.play
 end
 
 def display_board
