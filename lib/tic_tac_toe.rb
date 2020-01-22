@@ -120,6 +120,7 @@ def winner
 end
 
 def play
+  over?
   if !over?
     turn
   elsif won?
