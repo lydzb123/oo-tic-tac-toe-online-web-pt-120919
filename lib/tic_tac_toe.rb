@@ -126,7 +126,7 @@ def play
     won?
     draw?
   elsif won?
-    puts "Congratulations #{winner}"
+    puts "Congratulations #{winner}!"
   elsif draw?
     puts "Cat's Game!"
   end
