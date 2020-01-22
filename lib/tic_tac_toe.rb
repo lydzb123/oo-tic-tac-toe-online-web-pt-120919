@@ -136,8 +136,3 @@ end
 
 
 end
-
-
-# def initialize
-
-# end
