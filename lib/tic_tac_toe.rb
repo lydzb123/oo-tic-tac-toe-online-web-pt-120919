@@ -131,6 +131,7 @@ def play
 end
 
 def initialize
+  play
 end
 
 end
