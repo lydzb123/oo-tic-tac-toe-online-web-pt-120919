@@ -123,7 +123,8 @@ def play
   if !over?
     turn
   elsif won?
-    
+      puts "Congrats, winner!"
+      e
   end
 
 end
