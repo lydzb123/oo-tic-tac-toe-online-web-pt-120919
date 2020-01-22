@@ -120,26 +120,9 @@ def winner
 end
 
 def play
-
-  turn
-
   if !over?
-    turn
-
+    
   end
-
-  won?
-
-  if draw?
-    puts "Cat's Game!"
-  end
-
-  if won? || full?
-    turn
-  end
-
-
-
 
 end
 
