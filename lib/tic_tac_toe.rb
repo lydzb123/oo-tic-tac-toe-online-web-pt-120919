@@ -120,8 +120,9 @@ def winner
 end
 
 def play
-  if !over?
+  while !over?
     turn
+  end
     over?
     won?
     draw?
