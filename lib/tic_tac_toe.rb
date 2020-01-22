@@ -133,5 +133,5 @@ end
 
 end
 
-newgame = TicTacToe.new
-newgame.play
+game = TicTacToe.new
+game.play
