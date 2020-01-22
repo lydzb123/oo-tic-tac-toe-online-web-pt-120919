@@ -126,7 +126,6 @@ def play
     won?
     draw?
   elsif won?
-    winner = current_player == "X" ? "O" : "X"
     puts "Congratulations #{winner}"
   elsif draw?
     puts "Cat's Game!"
