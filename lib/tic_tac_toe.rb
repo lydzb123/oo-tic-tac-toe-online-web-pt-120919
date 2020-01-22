@@ -122,6 +122,7 @@ end
 def play
   if !over?
     turn
+  elsif won?
     
   end
 
