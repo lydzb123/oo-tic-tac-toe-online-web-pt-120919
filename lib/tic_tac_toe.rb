@@ -13,6 +13,7 @@ WIN_COMBINATIONS = [[0,1,2], #top-across
 ]
 
 def initialize(board = nil)
+  @board = board || Array.new(9, " ")
 end
 
 def display_board
@@ -119,7 +120,6 @@ def winner
 end
 
 def play
- @board = Array.new(9, " ")
   while !over?
     turn
   end
