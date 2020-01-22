@@ -131,7 +131,7 @@ end
 
 def initialize(board = nil)
   @board = board || Array.new(9, " ")
-  self.class.play
+play
 end
 
 end
